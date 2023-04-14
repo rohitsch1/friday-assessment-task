@@ -1,0 +1,44 @@
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-top: 150px;
+  margin-left: 100px;
+  padding: 20px 20px;
+  width: 90%;
+  height: 80%;
+  background-color: aliceblue;
+
+
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    width: 400px;
+    height: 100px;
+    .MuiInputLabel-root{
+      display: flex;
+      flex-direction: column;
+    }
+    .MuiFormControl-root{
+      width: 80%;
+    }
+    .MuiFormControlLabel-root{
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+  }
+  
+}
+.MuiButton-root{
+  margin-left: 50% !important;
+  margin-top: 5% !important;
+}
